@@ -37,7 +37,9 @@ $text_size: 13px;
         @include margins(5px 0);
         @include borderbtm( #EEE );
         font-size: $heading_size;
-
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
     }
 
     .project-inner > a { display: block; }
