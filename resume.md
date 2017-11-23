@@ -1,7 +1,6 @@
 ---
-layout: project
-title: 项目
-permalink: /projects/
+layout: page
+title: 简历
+permalink: /resume/
 ---
 
-Few of my projects.
