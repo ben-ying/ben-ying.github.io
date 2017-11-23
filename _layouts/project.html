@@ -6,18 +6,12 @@ layout: default
   <div class="post-content">
     {{ content }}
 
-    <div class="projects row">
+    <div class="resume row">
     {% include project_tags.html %}
-    {% for i in site.data.projects %}
+    {% for i in site.data.resume %}
     <div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
-    	<div class="well project-outer">
     		<div class="project-inner">
-    			<a href="/static/projects/{{ i.image }}" class="thickbox">
-    			<div class="project-img bordered" style="background-image: url('/static/projects/{{ i.image }}');"></div>
-                </a>
-                {% if i.url %} <a href="{{ i.url }}"> {% endif %}
     			<h3 class="project-headlines">{{ i.name }}</h3>
-    			{% if i.url %} </a> {% endif %}
     			<div class="project-content">
     				<div class="tag-holder">
     				{% if i.tags %} 
@@ -29,13 +23,9 @@ layout: default
     				
     			</div>
     			<div class="project-footer"> 
-    				{% if i.url %} 
-    				<a href="{{ i.url }}" class="btn btn-info btn-raised btn-sm project-link">View</a>
-    				{% endif %}
     				<span class="project-timeline">{{ i.date }}</span>
     			</div>
     		</div>
-    	</div>
         </div>
     {% endfor %}
     </div>

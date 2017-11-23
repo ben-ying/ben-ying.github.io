@@ -12,13 +12,13 @@
   },
   {
     "text": "项目",
-    "url": "/projects",
+    "url": "/projects/",
     "icon": "fa-desktop"
   },
   {
     "text": "简历",
-    "url": "/resume",
-    "icon": "fa-graduation-cap",
+    "url": "/resume/",
+    "icon": "fa-graduation-cap"
   },
   {
     "text": "Github",
