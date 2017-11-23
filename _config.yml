@@ -1,9 +1,9 @@
-title: John Smith
+title: Ben
 description: My Personal Blog
-author: John Smith
-logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
-about: Freelance developer
+author: 应佳辉
+logo: /ben-ying.github.io/static/img/avatar.png
+github: https://github.com/ben-ying
+about: Android开发工程师
 
 baseurl: ""
 url: ""
