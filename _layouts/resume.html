@@ -7,19 +7,18 @@ layout: default
     {{ content }}
 
     <div class="resume row">
-    {% include project_tags.html %}
     {% for i in site.data.resume %}
-    <div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
     	<div class="well project-outer">
     		<div class="project-inner">
                 {% if i.url %} <a href="{{ i.url }}"> {% endif %}
     			<h3 class="project-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}
+                <p style="padding-top: 8px">{{ i.description }}</p>
     			<div class="project-content">
     				<div class="tag-holder">
     				{% if i.tags %} 
     					{% for j in i.tags %}
-    					<span class="label tags tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
+    					<span class="label tags tag-filter label-primary" style="pointer-events: none;" data-tag="{{ j | downcase }}">{{ j }}</span>
     					{% endfor %}
     				{% endif %}
     				</div>
@@ -27,12 +26,11 @@ layout: default
     			</div>
     			<div class="project-footer"> 
     				{% if i.url %} 
-    				<a href="{{ i.url }}" class="btn btn-info btn-raised btn-sm project-link">View</a>
+    				<a href="{{ i.url }}" class="btn btn-info btn-raised btn-sm project-link">查看详情</a>
     				{% endif %}
-    				<span class="project-timeline">{{ i.date }}</span>
+    				<span class="project-timeline text-primary">{{ i.date }}</span>
     			</div>
     		</div>
-    	</div>
         </div>
     {% endfor %}
     </div>

@@ -1,26 +1,30 @@
 [
 	{
 		"name": "JPCC(均胜普瑞智能车联)",
+		"description": "均胜集团的一家子公司，主要从事车辆卫星导航，卫星监控系统开发，计算机软件开发及技术服务。包括车联网产品，电子产品，通信设备的研发，生产，销售等服务。",
 		"url": "http://www.joyson.cn/",
-		"date": "2017.7-至今",
+		"date": "2017.7 ~ 至今",
 		"tags": ["Android","C/C++"]
 	},
 	{
 		"name": "ThinkHome(智轩科技)",
+		"description": "一家全宅智能家居研发公司，公司产品包括空调，地暖，门锁，灯光，窗帘，插座，安防，空气检测等所有家庭智能产品。",
 		"url": "http://www.thinkhome.com.cn/",
-		"date": "2015.4-2017.6",
+		"date": "2015.4 ~ 2017.6",
 		"tags": ["Android","智能家居"]
 	},
 	{
 		"name": "Wayma",
+		"description": "一家主要从事软件外包服务的法国公司，公司客户来自于包括法国，英国，新加坡，马来西亚等国家和地区。",
 		"url": "http://www.wayma.com/",
-		"date": "2014.4-2015.4",
+		"date": "2014.4 ~ 2015.4",
 		"tags": ["Android"]
 	},
 	{
 		"name": "Motherapp",
+		"description": "一家主要从事软件外包服务的香港公司，公司客户主要来自于香港，英国，美国，新加坡，中国大陆等国家和地区",
 		"url": "https://motherapp.com/",
-		"date": "2011.9-2014.4",
+		"date": "2011.9 ~ 2014.4",
 		"tags": ["Android","Python/Django"]
 	}
 ]
