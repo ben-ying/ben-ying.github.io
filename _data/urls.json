@@ -2,7 +2,12 @@
   {
     "text": "主页",
     "url": "/",
-    "icon": "fa-home",
+    "icon": "fa-home"
+  },
+  {
+    "text": "博客",
+    "url": "/blogs/",
+    "icon": "fa-rss-square",
     "layout": "post"
   },
   {
