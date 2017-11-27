@@ -1,0 +1,18 @@
+---
+layout: home
+title:  "主页"
+categories: jekyll
+---
+<table width="100%">
+    {% for i in site.data.home %}
+    <tr>
+        <td width="20%" style="font-weight:bold; padding-top: 10px">{{i.title}}</td>
+        {% if i.link %}
+        <td><a href={{i.link}}>{{i.value}}</a></td>
+        {% else %}
+        <td>{{i.value}}</td>
+        {% endif %}
+    </tr>
+    {% endfor %}
+</table>
+

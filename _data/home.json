@@ -1,0 +1,50 @@
+[
+	{
+		"title": "中文名",
+		"value": "应佳辉"
+	},
+	{
+		"title": "英文名",
+		"value": "Ben"
+	},
+	{
+		"title": "职业",
+		"value": "Android开发工程师"
+	},
+	{
+		"title": "公司",
+		"value": "均胜普瑞智能车联（均胜电子）"
+	},
+	{
+		"title": "地址",
+		"value": "宁波"
+	},
+	{
+		"title": "电子邮箱",
+		"value": "benying1988@gmail.com",
+		"link": "mailto:benying1988@gmail.com"
+	},
+	{
+		"title": "Stack Overflow",
+		"value": "https://stackoverflow.com/users/4010952/thinsky",
+		"link": "https://stackoverflow.com/users/4010952/thinsky"
+	},
+	{
+		"title": "QQ",
+		"value": "380668771"
+	},
+	{
+		"title": "Github",
+		"value": "https://github.com/ben-ying",
+		"link": "https://github.com/ben-ying"
+	},
+	{
+		"title": "知乎",
+		"value": "https://www.zhihu.com/people/ben-60-3/activities",
+		"link": "https://www.zhihu.com/people/ben-60-3/activities"
+	},
+	{
+		"title": "简介",
+		"value": "6年Android软件开发工程师，2年Django/Python开发工程师。目前从事智能车联方面的Android和Linux软件开发。"
+	}
+]
