@@ -10,7 +10,7 @@ layout: default
     {% for i in site.data.resume %}
     	<div class="well project-outer">
     		<div class="project-inner">
-                {% if i.url %} <a href="{{ i.url }}"> {% endif %}
+                {% if i.url %} <a href="{{ i.url }}" target="_blank"> {% endif %}
     			<h3 class="project-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}
                 <p style="padding-top: 8px">{{ i.description }}</p>
@@ -26,7 +26,7 @@ layout: default
     			</div>
     			<div class="project-footer"> 
     				{% if i.url %} 
-    				<a href="{{ i.url }}" class="btn btn-info btn-raised btn-sm project-link">公司详情</a>
+    				<a href="{{ i.url }}" target="_blank" class="btn btn-info btn-raised btn-sm project-link">公司详情</a>
     				{% endif %}
     				<span class="project-timeline text-primary">{{ i.date }}</span>
     			</div>

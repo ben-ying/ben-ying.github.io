@@ -5,9 +5,9 @@ title:  "主页"
 <table width="100%">
     {% for i in site.data.home %}
     <tr>
-        <td width="20%" style="font-weight:bold; padding-top: 10px">{{i.title}}</td>
+        <td width="20%" style="font-weight:bold; padding-top: 10px; padding-right: 10px;">{{i.title}}</td>
         {% if i.link %}
-        <td><a href={{i.link}} target="_blank">{{i.value}}</a></td>
+        <td style="word-break:break-all"><a href={{i.link}} target="_blank">{{i.value}}</a></td>
         {% else %}
         <td>{{i.value}}</td>
         {% endif %}
